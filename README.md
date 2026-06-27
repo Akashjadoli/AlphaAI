@@ -3,7 +3,7 @@
 A ChatGPT-like AI chat application built with React and Node.js.
 
 ## 🚀 Live Demo
-[AlphaAI](alpha-ai-6u88.vercel.app)
+alpha-ai-6u88.vercel.app
 
 ## 🛠️ Tech Stack
 - **Frontend:** React, Vite, CSS
