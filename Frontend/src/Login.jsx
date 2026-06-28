@@ -37,7 +37,7 @@ export default function Login({ onLogin }) {
             Continue with Google
           </button>
 
-          <small>Only real users are allowed</small>
+          <small>Only the real users are allowed</small>
         </div>
 
         <p className="login-footer">AlphaAI can make mistakes. Check important info.</p>
