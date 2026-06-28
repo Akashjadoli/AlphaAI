@@ -1,0 +1,138 @@
+.login-wrapper {
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+  background: #1a1a1a;
+  overflow: hidden;
+}
+
+/* Left Panel */
+.login-left {
+  width: 280px;
+  background: #111111;
+  border-right: 1px solid #2a2a2a;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 24px 16px;
+}
+
+.login-brand {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.login-brand img {
+  width: 38px;
+  height: 32px;
+  filter: brightness(0) invert(1);
+}
+
+.login-brand span {
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.login-built {
+  color: #555;
+  font-size: 13px;
+}
+
+/* Right Panel */
+.login-right {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+  padding: 24px;
+}
+
+/* Card */
+.login-card {
+  background: #111111;
+  border: 1px solid #2a2a2a;
+  border-radius: 16px;
+  padding: 48px 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+  width: 100%;
+  max-width: 400px;
+}
+
+.login-card-logo {
+  width: 52px;
+  height: 46px;
+  filter: brightness(0) invert(1); /* dark logo ko white kar dega */
+}
+
+.login-card h1 {
+  color: #ffffff;
+  font-size: 24px;
+  font-weight: 700;
+  margin: 0;
+  text-align: center;
+}
+
+.login-card p {
+  color: #777;
+  font-size: 14px;
+  margin: 0;
+  text-align: center;
+}
+
+.login-card small {
+  color: #444;
+  font-size: 12px;
+  text-align: center;
+}
+
+/* Google Button */
+.google-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  background: #ffffff;
+  color: #000000;
+  border: none;
+  border-radius: 8px;
+  padding: 13px 24px;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+  width: 100%;
+  margin-top: 8px;
+  transition: opacity 0.2s;
+}
+
+.google-btn:hover {
+  opacity: 0.9;
+}
+
+.google-btn:hover {
+  background: #f0f0f0;
+  opacity: 1;
+}
+
+/* Footer */
+.login-footer {
+  color: #333;
+  font-size: 12px;
+}
+
+/* Mobile Responsive */
+@media (max-width: 600px) {
+  .login-left {
+    display: none;
+  }
+
+  .login-card {
+    padding: 32px 24px;
+  }
+}
