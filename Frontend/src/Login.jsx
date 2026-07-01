@@ -22,7 +22,7 @@ export default function Login({ onLogin }) {
           <img src={logo} alt="logo" />
           <span>AlphaAI</span>
         </div>
-        <p className="login-built">Built by Akash</p>
+        <p className="login-built">Built by Akash & Anand</p>
       </div>
 
       {/* Right Panel */}
